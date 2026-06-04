@@ -1,11 +1,68 @@
-# grill-everything
+<div align="center">
 
-Run serious multi-round pressure tests, reviews, and challenge sessions for ideas, PRDs, technical designs, business models, writing plans, and decisions.
+## 拷打万物
 
-## Usage
+对想法、方案、PRD、技术设计、商业模式和关键决策做严肃压力测试。  
+目标不是表演式挑刺，而是把假设、证据缺口、风险路径和关键取舍打出来。
 
-Install or copy this folder as a Codex skill. The skill entry point is `SKILL.md`.
+<sub>Challenge · Pressure Test · Review · Decide</sub>
 
-## License
+<br>
 
-No license is provided. All rights reserved.
+<p>
+  <img src="https://img.shields.io/badge/Codex-Skill-2563eb?style=flat&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Version-v1.0.0-14b8a6?style=flat&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Language-中文-f59e0b?style=flat&logo=markdown&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Pressure%20Test-7c3aed?style=flat" />
+</p>
+
+</div>
+
+```text
+拷打万物用于严肃审查一个对象是否站得住。
+它会先理解真实语境，再动态生成角色团，通过多轮追问把模糊定义、隐藏假设和风险路径打出来。
+```
+
+## ✨ 它能帮你看什么
+
+- 目标是否清楚，问题定义是否站得住
+- 关键假设有没有证据支撑
+- 风险路径、失败场景和边界条件在哪里
+- 方案里的取舍是否真实，而不是口号
+- 还缺哪些信息，才能继续做判断
+
+## 🧭 适用场景
+
+- 想严肃审查一个产品方案或 PRD
+- 想挑战一个技术设计、组织流程或研究计划
+- 想压力测试商业模式、职业选择或关键决策
+- 想模拟多角色评审团，从不同角度连续追问
+- 想在正式投入前先找出最可能出问题的地方
+
+## 🧩 工作方式
+
+这个 Skill 不使用固定角色库，而是根据当前对象动态生成审查角色。
+
+- 先读取材料，能自己查到的信息不反问
+- 场景不清时，只问一个最阻塞的澄清问题
+- 先输出理解摘要、角色团和审查顺序
+- 等用户确认 `开始拷打` 后，再进入正式追问
+- 每个角色单独连续追问，每轮只问一个主问题
+
+## 🚦 边界
+
+- 只拷打逻辑、证据、假设、风险、边界和取舍
+- 不攻击、羞辱、诊断或贬低用户本人
+- 不把开场变成固定问卷
+- 不为凑轮数追问，推进价值不足时会阶段小结
+- 用户要求暂停或停止时，立即停止追问
+
+## 📦 使用方式
+
+把本目录作为 Codex skill 安装或放入你的 skills 目录中，由 Codex 在压力测试、严肃审查或拷打任务中自动触发。
+
+```text
+SKILL.md
+```
+
+<sub>未提供开源许可证，默认保留所有权利。</sub>
