@@ -1,4 +1,4 @@
 interface:
   display_name: "拷打万物"
-  short_description: "用轻量 workflow、多角色确认和连续追问，对任何方案、想法、文档、决策或计划进行严肃压力测试。"
+  short_description: "用轻量 workflow、多角色确认、连续追问和可选记录模式，对任何方案、想法、文档、决策或计划进行严肃压力测试。"
   default_prompt: "拷打这个方案："
